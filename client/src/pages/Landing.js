@@ -1,52 +1,97 @@
-
 import React from "react";
-import { Col, Row, Container } from "../components/Grid";
-import Jumbotron from "../components/Jumbotron";
-import {Input, FormBtn} from "../components/Form";
+import { Input, FormBtn } from "../components/Form";
 
+const initialState = {
+  name: "",
+  email: "",
+  password: "",
+  nameError: "",
+  emailError: "",
+  passwordError: ""
+};
 
+export default class SignIn extends React.Component {
+  state = initialState;
 
-function handleFormSubmit(event){
-  event.preventDefault();
-  console.log("info")
-}
+  handleChange = event => {
+    const isCheckbox = event.target.type === "checkbox";
+    this.setState({
+      [event.target.name]: isCheckbox
+        ? event.target.checked
+        : event.target.value
+    });
+  };
 
+  validate = () => {
+    let nameError = "";
+    let emailError = "";
+    // let passwordError = "";
 
+    if (!this.state.name) {
+      nameError = "name cannot be blank";
+    }
 
+    if (!this.state.email.includes("@")) {
+      emailError = "invalid email";
+    }
 
-function SignIn() {
-  return (
-    <Container fluid>
-      <Row>
-        <Col size="md-12">
-          <Jumbotron>
-            <h1>Login</h1>
-            <h1>
-              <span role="img" aria-label="Face With Rolling Eyes Emoji">
-                lol
-              </span>
-            </h1>
-          </Jumbotron>
-        </Col>
-      </Row>
-      <form>
-      <Input
-      name="username"
-      placeholder="username"
-      />
-      <Input
-      name="password"
-      placeholder="password"
-      
-      />
-      <FormBtn
-      onClick={handleFormSubmit}
-      
-      
-      >Login</FormBtn>
+    if (emailError || nameError) {
+      this.setState({ emailError, nameError });
+      return false;
+    }
+
+    return true;
+  };
+
+  handleSubmit = event => {
+    event.preventDefault();
+    const isValid = this.validate();
+    if (isValid) {
+      console.log(this.state);
+      // clear form
+      this.setState(initialState);
+    }
+  };
+
+  render() {
+    return (
+      <form onSubmit={this.handleSubmit}>
+        <div>
+          <input
+            name="name"
+            placeholder="name"
+            value={this.state.name}
+            onChange={this.handleChange}
+          />
+          <div style={{ fontSize: 12, color: "red" }}>
+            {this.state.nameError}
+          </div>
+        </div>
+        <div>
+          <input
+            name="email"
+            placeholder="email"
+            value={this.state.email}
+            onChange={this.handleChange}
+          />
+          <div style={{ fontSize: 12, color: "red" }}>
+            {this.state.emailError}
+          </div>
+        </div>
+        <div>
+          <input
+            type="password"
+            name="password"
+            placeholder="password"
+            value={this.state.password}
+            onChange={this.handleChange}
+          />
+          <div style={{ fontSize: 12, color: "red" }}>
+            {this.state.passwordError}
+          </div>
+        </div>
+        <button type="submit">submit</button>
       </form>
-    </Container>
-  );
+    );
+  }
 }
-
-export default SignIn;
