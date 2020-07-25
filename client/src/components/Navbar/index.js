@@ -49,7 +49,16 @@ export default class ExampleCss extends Component {
           </div>
           
         </div>
-        <div className="info"><p>Hey</p></div>
+            <div className="info">
+                <p>Kildare Road Medical Center</p>
+                <p> Caring for Our Community</p>
+                
+            </div>
+
+            <div className="logo">
+            <img src="https://www.kildaremedical.com.au/static/uploads/images/krmc-2019-logo-wfajrfakoysa.jpg?mode=max&upscale=true&width=228" alt="KRMC LOGO"></img>
+
+            </div>
       </div>
      
       

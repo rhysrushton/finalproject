@@ -21,7 +21,7 @@
     width: 250px;
     height: 100%;
     padding: 20px;
-    border-right: 1px solid #ccc;
+   
 }
 
 .nav__icon {
@@ -35,9 +35,18 @@
 }
 
 .nav__icon:hover, a {
-    color: #5eb2ff;
+    color: rgb(0, 202, 78);
 }
 
 .info{
-    color: red;
+    color: rgb(0, 202, 78);
+    position: absolute;
+    margin-left: 30%;
+    padding-top: 40px;
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 40px;
+}
+
+.logo{
+    margin-left: 70%;
 }

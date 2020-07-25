@@ -1,0 +1,39 @@
+import React, { Component } from "react";
+import Card from "./CardUI";
+
+
+const img1 = "https://niegroup.com.au/wp-content/uploads/kd-med-01.jpg"
+
+class Cards extends React.Component {
+  render() {
+    return (
+      <div className="container-fluid d-flex justify-content-center">
+        <div className="row">
+          <div className="col-md-4">
+            <Card imgsrc={img1} title="Make and Appointment" text="Book and appoint with us today. " button="Book Now" />
+          </div>
+          
+          <div className="col-md-4">
+            <Card imgsrc={img1} title="Our Health Team" text="Check out our highly skilled team of General Practitioners, Specialists, Nurses and Allied Health Providers." button="Our Team" />
+          </div>
+          <div className="col-md-4">
+            <Card imgsrc={img1} title="Aboriginal Health Services" text="We are commited to closing the gap and provide a range of services for member of the Aboriginal and Torres Strait Islander community." button="Services"/>
+          </div>
+
+          <div className="col-md-4">
+            <Card imgsrc={img1} title="What We Offer" text="See how we can help. " button="What we do"/>
+          </div>
+
+          <div className="col-md-4">
+            <Card imgsrc={img1} title="Corporate Clients" button="Services" text="We welcome WorkCover consultations and offer a range of medicals, vaccination programs and presentations."/>
+          </div>
+
+          
+   
+        </div>
+      </div>
+      
+    );
+  }
+}
+export default Cards;
