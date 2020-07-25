@@ -5,6 +5,8 @@ import Detail from "./pages/Detail";
 import NoMatch from "./pages/NoMatch";
 import Home from "./pages/Home";
 import ExampleCss from "./components/Navbar";
+import Nav from "./components/Nav"
+
 
 
 function App() {
@@ -31,6 +33,7 @@ function App() {
         
       </div>
       </div>
+     <div><Nav/></div>
     </Router>
   );
 }
