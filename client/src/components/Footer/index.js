@@ -23,40 +23,39 @@ function Footer(){
                         <h4>Contact</h4>
                         <br></br>
                         <ul className="list-unstyled">
-                        <li><a href="/">Lorem</a></li>
+                        <li><a href="/">Facebook</a></li>
                         <br></br>
-                            <li><a href="/">Lorem</a></li>
+                            <li><a href="/">Email</a></li>
                             <br></br>
-                            <li><a href="/">Lorem</a></li>
+                            <li><a href="/">Twitter</a></li>
                             <br></br>
-                            <li><a href="/">Lorem</a></li>
+                            <li><a href="/">Instagram</a></li>
                         </ul>
                     </div>
                     <div className="col-md-3 col-sm-6">
                         <h4>Information</h4>
                         <br></br>
                         <ul className="list-unstyled">
-                        <li><a href="/">Lorem</a></li>
+                        <li><a href="/">Mission</a></li>
                         <br></br>
-                            <li><a href="/">Lorem</a></li>
+                            <li><a href="/">Team</a></li>
                             <br></br>
-                            <li><a href="/">Lorem</a></li>
+                            <li><a href="/">Services</a></li>
                             <br></br>
-                            <li><a href="/">Lorem</a></li>
-                            <br></br>
+                         
                         </ul>
                     </div>
                     <div className="col-md-3 col-sm-6">
                         <h4>Legal</h4>
                         <br></br>
                         <ul className="list-unstyled">
-                        <li><a href="/">Lorem</a></li>
+                        <li><a href="/">Terms and Conditions</a></li>
                         <br></br>
-                            <li><a href="/">Lorem</a></li>
+                            <li><a href="/">Privacy</a></li>
                             <br></br>
-                            <li><a href="/">Lorem</a></li>
+                            <li><a href="/">Working at KRMC</a></li>
                             <br></br>
-                            <li><a href="/">Lorem</a></li>
+                            <li><a href="/">Rights </a></li>
                         </ul>
                     </div>
                 </div>
