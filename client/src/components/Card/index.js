@@ -15,7 +15,7 @@ class Cards extends React.Component {
       <div className="container-fluid d-flex justify-content-center">
         <div className="row">
           <div className="col-md-4">
-            <Card imgsrc={img1} title="Make and Appointment" text="Book and appoint with us today. " button="Book Now" />
+            <Card imgsrc={img1} title="Make and Appointment" text="Book and appoint with us today. " button="Book Now" link = "https://www.hotdoc.com.au/medical-centres/blacktown-NSW-2148/kildare-road-medical-centre/doctors" />
           </div>
           
           <div className="col-md-4">
@@ -23,7 +23,7 @@ class Cards extends React.Component {
           </div>
           
           <div className="col-md-4">
-            <Card imgsrc={img3} title="What We Offer" text="See how we can help. " button="What we do"/>
+            <Card imgsrc={img3} title="What We Offer" text="See how we can help. " button="What we do" link = "https://en.wikipedia.org/wiki/Jeanne_Baret" />
           </div>
 
           <div className="col-md-4">
@@ -31,7 +31,7 @@ class Cards extends React.Component {
           </div>
 
           <div className="col-md-4">
-            <Card imgsrc={img5} title="Our Health Team" text="Check out our highly skilled team of General Practitioners, Specialists, Nurses and Allied Health Providers." button="Our Team" />
+            <Card imgsrc={img5} title="Our Health Team" text="Check out our highly skilled team of General Practitioners, Specialists, Nurses and Allied Health Providers." button="Our Team" link = "/books"/>
           </div>
 
           <div className="col-md-4">

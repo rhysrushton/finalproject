@@ -5,7 +5,8 @@ import Detail from "./pages/Detail";
 import NoMatch from "./pages/NoMatch";
 import Home from "./pages/Home";
 import ExampleCss from "./components/Navbar";
-import Nav from "./components/Nav"
+import Footer from "./components/Footer"; 
+
 
 
 
@@ -32,8 +33,11 @@ function App() {
         </Switch>
         
       </div>
+      <br></br>
+      <Footer/>
       </div>
-     <div><Nav/></div>
+      <br></br>
+    
     </Router>
   );
 }

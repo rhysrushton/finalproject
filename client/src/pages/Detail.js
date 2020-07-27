@@ -24,16 +24,14 @@ function Detail(props) {
         <Row>
           <Col size="md-12">
             <Jumbotron>
-              <h1>
-                {book.title} by {book.author}
-              </h1>
+<h1>Image coming soon</h1>
             </Jumbotron>
           </Col>
         </Row>
         <Row>
           <Col size="md-10 md-offset-1">
             <article>
-              <h1>Synopsis</h1>
+              <h1>{book.title}</h1>
               <p>
                 {book.synopsis}
               </p>
@@ -42,7 +40,7 @@ function Detail(props) {
         </Row>
         <Row>
           <Col size="md-2">
-            <Link to="/">← Back to Authors</Link>
+            <Link to="/">← Back to Doctors</Link>
           </Col>
         </Row>
       </Container>
