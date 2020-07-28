@@ -23,7 +23,7 @@ export default class ExampleCss extends Component {
                     <a className="navbar-brand" href="/">
                     Home
                     </a>
-                <a className="navbar-brand" href="/books">
+                <a className="navbar-brand" href="/mission">
                     Our Mission
                 </a>
                 <a className="navbar-brand" href="/books">
@@ -38,9 +38,7 @@ export default class ExampleCss extends Component {
                 <a className="navbar-brand" href="/books">
                     FAQs
                 </a>
-                <a className="navbar-brand" href="/books">
-                    Community
-                </a>
+             
                 <a className="navbar-brand" href="/books">
                     Contact
                 </a>

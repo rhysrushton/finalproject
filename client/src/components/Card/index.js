@@ -19,7 +19,7 @@ class Cards extends React.Component {
           </div>
           
           <div className="col-md-4">
-            <Card imgsrc={img2} title="Community" button="Have a Look" text="We are involved in our local community."/>
+            <Card imgsrc={img2} title="Community" button="Have a Look" text="We are involved in our local community." link = "/books"/>
           </div>
           
           <div className="col-md-4">
@@ -27,7 +27,7 @@ class Cards extends React.Component {
           </div>
 
           <div className="col-md-4">
-            <Card imgsrc={img4} title="Corporate Clients" button="Corporate Services" text="We welcome WorkCover consultations and offer a range of medicals, vaccination programs and presentations."/>
+            <Card imgsrc={img4} title="Corporate Clients" button="Corporate Services" text="We welcome WorkCover consultations and offer a range of medicals, vaccination programs and presentations." link = "/books"/>
           </div>
 
           <div className="col-md-4">
@@ -35,7 +35,7 @@ class Cards extends React.Component {
           </div>
 
           <div className="col-md-4">
-            <Card imgsrc={img6} title="Aboriginal Health Services" text="We are commited to closing the gap and provide a range of services for member of the Aboriginal and Torres Strait Islander community." button="Services"/>
+            <Card imgsrc={img6} title="Aboriginal Health Services" text="We are commited to closing the gap and provide a range of services for member of the Aboriginal and Torres Strait Islander community." button="Services" link = "/books"/>
           </div>
 
           
