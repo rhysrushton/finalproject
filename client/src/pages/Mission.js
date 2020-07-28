@@ -5,19 +5,18 @@ import Timeline from "../components/Timeline/Timeline";
 
 
 
+
 function Mission() {
     return (
-      <Container fluid>
-        <Row>
-          <Col size="md-12">
-         
+    
+        <Container fluid>
+         <body>
           <Timeline/>
+          </body>
+          </Container>
+     
            
-          </Col>
-        </Row> 
-  
       
-      </Container>
     );
   }
   
