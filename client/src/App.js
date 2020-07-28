@@ -3,6 +3,7 @@ import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import Books from "./pages/Books";
 import Mission from "./pages/Mission"; 
 import Detail from "./pages/Detail";
+import FAQ from "./pages/FAQ"; 
 import NoMatch from "./pages/NoMatch";
 import Home from "./pages/Home";
 import ExampleCss from "./components/Navbar";
@@ -30,6 +31,9 @@ function App() {
           </Route>
           <Route exact path="/mission">
             <Mission />
+          </Route>
+          <Route exact path="/faq">
+            <FAQ />
           </Route>
           <Route>
             <NoMatch />

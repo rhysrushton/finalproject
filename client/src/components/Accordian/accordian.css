@@ -1,0 +1,32 @@
+.accordian_section {
+    display: flex; 
+    flex-direction: column; 
+}
+
+.accordian{
+    background-color: green;
+    color: red; 
+    cursor: pointer; 
+    padding: 18px; 
+    display: flex;
+    align-items: center;
+    border: none; 
+    outline: none; 
+    transition: background-color 0.6s ease; 
+}
+
+.accordian:hover,
+.active {
+    background-color: sandybrown;
+}
+
+.accordian_title{
+    font-family: 'Shadows Into Light', cursive;
+    font-weight: 600;
+    font-size: 14px; 
+}
+
+.accordian_icon{
+    margin-left: auto;
+    transition: background-color 0.6s ease; 
+}
