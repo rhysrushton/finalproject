@@ -6,7 +6,7 @@ import Cards from "../components/Card";
 
 const image1 = "https://www.kildaremedical.com.au/static/uploads/images/nikita-ridgeway-artwork-wffbmrymajsr.jpg?height=1182&mode=crop&upscale=true&width=1536";
 const image2 = "https://www.kildaremedical.com.au/static/uploads/images/01-dsc-8995-2-wfiildsvnxsh.jpg?mode=max&upscale=true&width=768";
-const image3 = "https://niegroup.com.au/wp-content/uploads/kd-med-01.jpg"
+
 
 const inlineStyle = {
     
