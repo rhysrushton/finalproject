@@ -1,7 +1,7 @@
 .accordian_section {
     display: flex; 
     flex-direction: column; 
-}
+};
 
 .accordian{
     background-color: green;
@@ -13,20 +13,31 @@
     border: none; 
     outline: none; 
     transition: background-color 0.6s ease; 
-}
+};
 
 .accordian:hover,
 .active {
-    background-color: sandybrown;
-}
+    background-color: red;
+};
 
 .accordian_title{
     font-family: 'Shadows Into Light', cursive;
     font-weight: 600;
     font-size: 14px; 
+};
+
+
+
+.accordian_content {
+    background-color: skyblue;
+    overflow: hidden;
+    transition: max-height 0.6s ease; 
+
 }
 
-.accordian_icon{
-    margin-left: auto;
-    transition: background-color 0.6s ease; 
+.accordian_text{
+    font-family:  'Shadows Into Light', cursive;
+    font-weight: 400; 
+    font-size: 20px; 
+    padding: 18px; 
 }

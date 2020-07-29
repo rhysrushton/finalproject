@@ -35,7 +35,7 @@ export default class ExampleCss extends Component {
                 <a className="navbar-brand" href="/books">
                     Health in the Workplace
                 </a>
-                <a className="navbar-brand" href="/books">
+                <a className="navbar-brand" href="/faq">
                     FAQs
                 </a>
              
