@@ -2,9 +2,9 @@
 
 - [User Story](#UserStory)
 - [Future Development](#FutureDevelopment)
--[Usage](#Usage)
--[Dependencies](#Dependencies)
--[Contact](#Contact)
+- [Usage](#Usage)
+- [Dependencies](#Dependencies)
+- [Contact](#Contact)
 
 
 
@@ -23,18 +23,18 @@ I also plan on improving aspects of the front end and finsihing some of the page
 [Click here to see the deployed app](https://frozen-caverns-37028.herokuapp.com/)
 
 ## Dependencies
-
-[react reveal]
-[styled components]
-[antd]
-[axios]
-[bootstrap]
-[express]
-[if-env]
-[material-ui]
-[mongoose]
-[react bootstrap]
-[react parallax]
-[react reveal]
+[styled components](https://www.npmjs.com/search?q=styled-components)
+[antd](https://www.npmjs.com/package/antd)
+[axios](https://www.npmjs.com/package/axios)
+[bootstrap](https://www.npmjs.com/package/react-bootstrap)
+[express](https://www.npmjs.com/package/express)
+[if-env](https://www.npmjs.com/package/if-env)
+[material-ui](https://www.npmjs.com/package/@material-ui/core)
+[mongoose](https://www.npmjs.com/package/mongoose)
+[react bootstrap](https://www.npmjs.com/package/react-bootstrap)
+[react parallax](https://www.npmjs.com/package/react-parallax)
+[react reveal](https://www.npmjs.com/package/react-reveal)
 
 ## Contact 
+
+[Linked In](https://www.linkedin.com/in/rhys-rushton-838a16197/)
