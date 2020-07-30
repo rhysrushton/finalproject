@@ -1,4 +1,4 @@
-# Kildare Road Medical Centre Website
+# Kildare Road Medical Center Website
 
 - [User Story](#UserStory)
 - [Future Development](#FutureDevelopment)
