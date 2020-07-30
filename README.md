@@ -24,15 +24,24 @@ I also plan on improving aspects of the front end and finsihing some of the page
 
 ## Dependencies
 [styled components](https://www.npmjs.com/search?q=styled-components)
+
 [antd](https://www.npmjs.com/package/antd)
+
 [axios](https://www.npmjs.com/package/axios)
+
 [bootstrap](https://www.npmjs.com/package/react-bootstrap)
+
 [express](https://www.npmjs.com/package/express)
+
 [if-env](https://www.npmjs.com/package/if-env)
 [material-ui](https://www.npmjs.com/package/@material-ui/core)
+
 [mongoose](https://www.npmjs.com/package/mongoose)
+
 [react bootstrap](https://www.npmjs.com/package/react-bootstrap)
+
 [react parallax](https://www.npmjs.com/package/react-parallax)
+
 [react reveal](https://www.npmjs.com/package/react-reveal)
 
 ## Contact 
